@@ -9,6 +9,14 @@ body {
     background-color: #1e1e1e;
 }
 
+#banner {
+    width: 100%; /* Garante que o banner ocupe toda a largura do contêiner pai */
+    height: auto; /* Permite que a altura seja ajustada automaticamente de acordo com a largura */
+    display: block; /* Exibe o banner como um bloco */
+    max-width: 100%; /* Evita que a imagem ultrapasse a largura do contêiner pai */
+    margin-bottom: 20px; /* Margem inferior para espaço entre o banner e o conteúdo seguinte */
+}
+
 .container {
     position: relative;
     width: 100%;
