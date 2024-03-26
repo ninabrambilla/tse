@@ -7,3 +7,4 @@ slider.oninput = function () {
 
 // Atualizar o valor inicial
 output.innerHTML = slider.value;
+gvuvu
