@@ -3,10 +3,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: center;
-    background-color: #eaeaea;
+    background-color: #d1d1d1;
 }
 
 #banner {
@@ -14,7 +14,7 @@ body {
     height: auto; /* Permite que a altura seja ajustada automaticamente de acordo com a largura */
     display: block; /* Exibe o banner como um bloco */
     max-width: 100%; /* Evita que a imagem ultrapasse a largura do contêiner pai */
-    margin-bottom: 20px; /* Margem inferior para espaço entre o banner e o conteúdo seguinte */
+    margin-bottom: 0px;  /*Margem inferior para espaço entre o banner e o conteúdo seguinte */
 }
 
 .container {
@@ -29,13 +29,19 @@ body {
 
 .slider-container {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 20%;
     transform: translate(-50%, -50%);
     background: linear-gradient(to bottom, #ffffff 50%, #012340 50%);
     border-radius: 15px;
     padding: 30px;
     text-align: center;
+}
+
+.slider-content,
+h2 {
+    display: inline-block; /* Coloca os elementos lado a lado */
+    vertical-align: top; /* Alinha-os no topo */
 }
 
 .slider-bar {
@@ -173,6 +179,27 @@ body {
     
 }
 
+/*MENU HORIZONTAL DO INDEX*/
+#menu ul { padding:0px;
+    margin:0px;
+    background-color:#012340;
+    list-style:none;
+  }
+#menu ul li { display: inline; }
+#menu ul li a { 
+    font-family: sans-serif;
+    padding: 10px 30px; 
+    display: inline-block; /* visual do link */ 
+    background-color:#012340; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-bottom:3px solid #012340; 
+    transition: all .4s;
+}
+#menu ul li a:hover { 
+    background-color:#025E73;
+    border-bottom:3px solid #012340;
+  }
 
 
 
