@@ -59,6 +59,9 @@ body {
     text-decoration: none;
   }
 
+  header ul li :hover{
+    text-decoration: overline;
+  }
 
   .btn-contato button{
     width: 120px;
