@@ -1,22 +1,99 @@
 body {
+    height: 500vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    /*display: flex;*/
     flex-direction: column;
     align-items: center;
     background-color: #d1d1d1;
+    font-family: 'Poppins', sans-serif;
 }
 
-#banner {
-    width: 100%; /* Garante que o banner ocupe toda a largura do contêiner pai */
-    height: auto; /* Permite que a altura seja ajustada automaticamente de acordo com a largura */
-    display: block; /* Exibe o banner como um bloco */
-    max-width: 100%; /* Evita que a imagem ultrapasse a largura do contêiner pai */
-    margin-bottom: 0px;  /*Margem inferior para espaço entre o banner e o conteúdo seguinte */
-}
+  .caixa{
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header{
+    z-index: 9999;
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+  }
+  
+  header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+  }
+  
+  header.rolagem a, header.rolagem i{
+    color: #025E73;
+  }
+  
+  header i{
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  header ul{
+    list-style-type: none;
+  }
+  
+  header ul li{
+    display: inline-block;
+    margin: 0 40px;
+  }
+  
+  header ul li a{
+    color: #fff;
+    text-decoration: none;
+  }
 
+
+  .btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #025E73;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+  }
+ .btn-contato :hover{
+  background-color: #fff;
+  color: #025E73;
+
+ }
+  .banner{
+    height: 100vh;
+    background-image: url(/TSE/IMAGENS/banner.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner h1{
+    color: #fff;
+    font-size: 5em;
+  }
+  
+  .banner h1 span{
+    color: #025E73;
+  }
 .container {
     position: relative;
     width: 100%;
@@ -29,7 +106,7 @@ body {
 
 .slider-container {
     position: absolute;
-    top: 80%;
+    top: 140%;
     left: 20%;
     transform: translate(-50%, -50%);
     background: linear-gradient(to bottom, #ffffff 50%, #012340 50%);
@@ -38,11 +115,6 @@ body {
     text-align: center;
 }
 
-.slider-content,
-h2 {
-    display: inline-block; /* Coloca os elementos lado a lado */
-    vertical-align: top; /* Alinha-os no topo */
-}
 
 .slider-bar {
     position: relative;
@@ -90,11 +162,13 @@ h2 {
 
 .slider-container p:first-of-type {
     margin-top: 1px;
-    font-family: Arial, sans-serif;
-    font-weight: bolder;
+    font-family:"Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-weight: lighter;
     font-size: 30px;
     color: black;
 }
+
+/*BRENDA MEXA AQUI */
 
 .entrar{
     margin-top: 100px;
@@ -178,29 +252,26 @@ h2 {
     align-items: center;
     
 }
+/*BRENA NÃO PASSE DAQ*/
 
-/*MENU HORIZONTAL DO INDEX*/
-#menu ul { padding:0px;
-    margin:0px;
-    background-color:#012340;
-    list-style:none;
-  }
-#menu ul li { display: inline; }
-#menu ul li a { 
-    font-family: sans-serif;
-    padding: 10px 30px; 
-    display: inline-block; /* visual do link */ 
-    background-color:#012340; 
-    color: #ffffff; 
-    text-decoration: none; 
-    border-bottom:3px solid #012340; 
-    transition: all .4s;
+.econ-text{
+position: absolute;
+top: 130%;
+right: 500px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+font-size: larger;
 }
-#menu ul li a:hover { 
-    background-color:#025E73;
-    border-bottom:3px solid #012340;
-  }
 
+.intro{
+    color: #012340;
+    margin-top: 5%;
+    font-kerning: none;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    text-align: center;
+}
 
-
-
+/*.logo{
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}*/
