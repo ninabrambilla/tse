@@ -1,0 +1,290 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*MENU FIXO*/
+.caixa {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  z-index: 9999;
+  /*código para o menu ficar acima de tudo*/
+  width: 100%;
+  padding: 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+
+/*MENU PASSOU DA IMAGEM*/
+header.rolagem {
+  background-color: #fff;
+  padding: 2%;
+}
+
+header.rolagem a, header.rolagem i {
+  color: #025E73;
+}
+
+header.rolagem ul li :hover {
+  text-decoration: underline;
+}
+
+header i {
+  font-size: 30px;
+  color: #fff;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li :hover {
+  text-decoration: underline;
+}
+
+/*BOTÃO DE ENTRAR*/
+.btn-contato button {
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #025E73;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  position: relative;
+  left: -100%;
+}
+
+.btn-contato button:hover {
+  background-color: #fff;
+  color: #025E73;
+  border: solid 1px #025E73;
+
+}
+
+/*IMAGEM DE BANNER*/
+.banner {
+  height: 100vh;
+  background-image: url(../img/teste.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 5em;
+}
+
+.banner h1 span {
+  color: #025E73;
+}
+
+
+
+
+
+/* Estilos para o título "Mais sobre a TSE" */
+.titulo01 {
+  left: 50%;
+  top: 891px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  color: #3F3F3F;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  word-wrap: break-word;
+}
+
+.titulo01 span {
+  color: #025E73;
+}
+
+.Rectangle29 {
+  width: 100%;
+  height: 1718px;
+  left: 0px;
+  top: 1497px;
+  position: absolute;
+  background-color: #025E73;
+}
+
+/* Estilos para o texto txt01 */
+.txt01 {
+  width: 85%;
+  height: 5%;
+  left: 50%;
+  top: 1060px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Estilos para a imagem Rectangle23 */
+.Rectangle23 {
+  width: 540px;
+  height: 324px;
+  left: 109px;
+  top: 1753px;
+  position: absolute;
+}
+
+/* Estilos para o texto txt02 */
+.txt02 {
+  width: 540px;
+  height: 281px;
+  left: 791px;
+  top: 1753px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Estilos para o título "Sustentabilidade" */
+.titulo02 {
+  width: 524px;
+  height: 100px;
+  left: 109px;
+  top: 1561px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 64px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+/* Estilos para a imagem Rectangle30 */
+.Rectangle30 {
+  width: 540px;
+  height: 324px;
+  left: 791px;
+  top: 2248px;
+  position: absolute;
+}
+
+/* Estilos para a imagem Rectangle31 */
+.Rectangle31 {
+  width: 540px;
+  height: 324px;
+  left: 109px;
+  top: 2743px;
+  position: absolute;
+}
+
+/* Estilos para o texto txt03 */
+.txt03 {
+  width: 540px;
+  height: 324px;
+  left: 109px;
+  top: 2248px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Estilos para o texto txt04 */
+.txt04 {
+  width: 540px;
+  height: 155px;
+  left: 791px;
+  top: 2743px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Estilos para o botão "Quero carregar" */
+.BtQueroCarregar {
+  position: absolute;
+  left: 50%;
+  top: 970px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.BtQueroCarregar button {
+  width: 345px;
+  height: 106px;
+  background: #025E73;
+  border-radius: 70px;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 1.08px;
+  border: none;
+  cursor: pointer;
+}
+
+.BtQueroCarregar button:hover {
+  background-color: #fff;
+  color: #025E73;
+  border: solid 1px #025E73;
+}
+
+@media (max-width: 768px) {
+  .BtQueroCarregar button {
+    width: 80%;
+    height: auto;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .BtQueroCarregar button {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
+

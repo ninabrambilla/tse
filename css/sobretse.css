@@ -1,0 +1,251 @@
+*{
+  font-family: inter;
+}
+
+/*MENU FIXO*/
+.caixa {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  z-index: 9999;
+  /*código para o menu ficar acima de tudo*/
+  width: 100%;
+  padding: 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+
+/*MENU PASSOU DA IMAGEM*/
+header.rolagem {
+  background-color: #fff;
+  padding: 2%;
+}
+
+header.rolagem a, header.rolagem i {
+  color: #025E73;
+}
+
+header.rolagem ul li :hover {
+  text-decoration: underline;
+}
+
+header i {
+  font-size: 30px;
+  color: #fff;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li :hover {
+  text-decoration: underline;
+}
+
+/*BOTÃO DE ENTRAR*/
+.btn-contato button {
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #025E73;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  position: relative;
+  left: -100%;
+}
+
+.btn-contato button:hover {
+  background-color: #fff;
+  color: #025E73;
+  border: solid 1px #025E73;
+}
+
+/* SOBRE A TSE */
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img01, .img02, .img03 {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.quemsomos, .oqdes, .txtqs, .txtoqdes1, .txtoqdes2, .txtoqdes3, .viss, .miss, .txtmiss, .txtviss {
+  position: absolute;
+  color: white;
+  font-family: Inter;
+  letter-spacing: 1.44px;
+  word-wrap: break-word;
+}
+
+.quemsomos {
+  left: 451px;
+  top: 264px;
+  width: 539px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.txtqs {
+  left: 140px;
+  top: 408px;
+  width: 1160px;
+  height: 194px;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.oqdes {
+  left: 451px;
+  top: 905px;
+  width: 539px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.line1, .line2, .line3, .line4, .line5 {
+  width: 87.45px;
+  height: 0;
+  left: 189px;
+  position: absolute;
+  border: 2px white solid;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+
+.line1 {
+  top: 1231.45px;
+}
+
+.line2 {
+  top: 1251.45px;
+}
+
+.line3 {
+  top: 1271.45px;
+}
+
+.line4 {
+  top: 1291.45px;
+}
+
+.line5 {
+  top: 1311.45px;
+}
+
+.txtoqdes1 {
+  left: 204px;
+  top: 1159px;
+  width: 502px;
+  height: 58px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.txtoqdes2 {
+  left: 204px;
+  top: 1492px;
+  width: 357px;
+  height: 29px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.txtoqdes3 {
+  left: 811px;
+  top: 1335px;
+  width: 429px;
+  height: 29px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.iconv {
+  left: 1058px;
+  top: 1741px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.iconm {
+  left: 303px;
+  top: 1741px;
+  width: 100.47px;
+  height: 80px;
+  position: absolute;
+}
+
+.viss {
+  left: 189px;
+  top: 1834px;
+  width: 328px;
+  height: 56px;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.miss {
+  left: 934px;
+  top: 1834px;
+  width: 328px;
+  height: 56px;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.txtmiss {
+  left: 879px;
+  top: 1985px;
+  width: 437px;
+  height: 290px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.txtviss {
+  left: 189px;
+  top: 1985px;
+  width: 437px;
+  height: 290px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: justify;
+}

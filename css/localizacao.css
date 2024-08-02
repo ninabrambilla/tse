@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+}
+
+h1{
+  margin: 2%;
+  text-align: left;
+  margin-top: 120px;
+}
+
+p {
+  margin: 2%;
+  text-align:left ;
+  margin-top: 20px;
+}
+
+.mapBox {
+  position: fixed; /* Fixa o elemento na tela */
+  bottom: 0; /* Posiciona o elemento na parte inferior da tela */
+  left: 0; /* Alinha o elemento à esquerda da tela */
+  width: 100%; /* Faz o elemento ocupar toda a largura da tela */
+  background: #fff; /* Cor de fundo */
+}
+
+
+
+/*MENU FIXO*/
+.caixa {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  z-index: 9999;
+  /*código para o menu ficar acima de tudo*/
+  width: 100%;
+  padding: 1%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  background-color: #025E73;
+}
+
+header i {
+  font-size: 30px;
+  color: #fff;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li :hover {
+  text-decoration: underline;
+}
+
+/*BOTÃO DE ENTRAR*/
+.btn-contato button {
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #025E73;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  position: relative;
+  left: -100%;
+}
+
+.btn-contato button:hover {
+  background-color: #fff;
+  color: #025E73;
+  border: solid 1px #025E73;
+
+}
+
+
