@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
-  font-family: inter;
+  margin: 0;
+  font-family: 'Inter';
 }
 
 /*MENU FIXO*/
@@ -103,14 +105,14 @@ header ul li :hover {
 .quemsomos, .oqdes, .txtqs, .txtoqdes1, .txtoqdes2, .txtoqdes3, .viss, .miss, .txtmiss, .txtviss {
   position: absolute;
   color: white;
-  font-family: Inter;
+  font-family: 'inter';
   letter-spacing: 1.44px;
   word-wrap: break-word;
 }
 
 .quemsomos {
-  left: 451px;
-  top: 264px;
+  left: 37%;
+  top: 50%;
   width: 539px;
   height: 58px;
   font-size: 48px;
@@ -118,8 +120,8 @@ header ul li :hover {
 }
 
 .txtqs {
-  left: 140px;
-  top: 408px;
+  left: 11%;
+  top: 80%;
   width: 1160px;
   height: 194px;
   font-size: 32px;
@@ -129,46 +131,71 @@ header ul li :hover {
 
 .oqdes {
   left: 451px;
-  top: 905px;
+  top: 185%;
   width: 539px;
   height: 58px;
   font-size: 48px;
   font-weight: 600;
 }
 
-.line1, .line2, .line3, .line4, .line5 {
-  width: 87.45px;
+.line1 {
+  top: 220%;
+  width: 6%;
   height: 0;
-  left: 189px;
+  left: 12%;
   position: absolute;
   border: 2px white solid;
   transform: rotate(-90deg);
   transform-origin: 0 0;
 }
 
-.line1 {
-  top: 1231.45px;
-}
-
 .line2 {
-  top: 1251.45px;
+  top: 249%;
+  width: 6%;
+  height: 0;
+  right: 12%;
+  position: absolute;
+  border: 2px white solid;
+  transform: rotate(-90deg);
+  transform-origin: 0 0
 }
 
 .line3 {
-  top: 1271.45px;
+  top: 268%;
+  width: 6%;
+  height: 0;
+  left: 12%;
+  position: absolute;
+  border: 2px white solid;
+  transform: rotate(-90deg);
+  transform-origin: 0 0
 }
 
 .line4 {
-  top: 1291.45px;
+  top: 335%;
+  width: 16%;
+  height: 0;
+  left: 35%;
+  position: absolute;
+  border: 2px white solid;
+  transform: rotate(180deg);
+  transform-origin: 0 0
 }
 
 .line5 {
-  top: 1311.45px;
+  top: 335%;
+  width: 16%;
+  height: 0;
+  right: 2%;
+  position: absolute;
+  border: 2px white solid;
+  transform: rotate(180deg);
+  transform-origin: 0 0
 }
 
 .txtoqdes1 {
   left: 204px;
-  top: 1159px;
+  top: 210%;
   width: 502px;
   height: 58px;
   font-size: 24px;
@@ -177,7 +204,7 @@ header ul li :hover {
 
 .txtoqdes2 {
   left: 204px;
-  top: 1492px;
+  top: 260%;
   width: 357px;
   height: 29px;
   font-size: 24px;
@@ -185,8 +212,8 @@ header ul li :hover {
 }
 
 .txtoqdes3 {
-  left: 811px;
-  top: 1335px;
+  left: 757px;
+  top: 240%;
   width: 429px;
   height: 29px;
   font-size: 24px;
@@ -195,24 +222,24 @@ header ul li :hover {
 }
 
 .iconv {
-  left: 1058px;
-  top: 1741px;
+  left: 24%;
+  top: 310%;
   width: 80px;
   height: 80px;
   position: absolute;
 }
 
 .iconm {
-  left: 303px;
-  top: 1741px;
+  right:22%;
+  top: 310%;
   width: 100.47px;
   height: 80px;
   position: absolute;
 }
 
 .viss {
-  left: 189px;
-  top: 1834px;
+  left: 16%;
+  top: 325%;
   width: 328px;
   height: 56px;
   font-size: 48px;
@@ -221,8 +248,8 @@ header ul li :hover {
 }
 
 .miss {
-  left: 934px;
-  top: 1834px;
+  right: 15%;
+  top: 325%;
   width: 328px;
   height: 56px;
   font-size: 48px;
@@ -232,7 +259,7 @@ header ul li :hover {
 
 .txtmiss {
   left: 879px;
-  top: 1985px;
+  top: 345%;
   width: 437px;
   height: 290px;
   font-size: 24px;
@@ -242,7 +269,7 @@ header ul li :hover {
 
 .txtviss {
   left: 189px;
-  top: 1985px;
+  top: 345%;
   width: 437px;
   height: 290px;
   font-size: 24px;

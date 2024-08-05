@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* Redefine as margens e preenchimentos para todos os elementos, define box-sizing como border-box */
 * {
   margin: 0;
@@ -24,7 +25,7 @@ body {
 /* Estilo para o primeiro contêiner */
 .primeirocontainer {
   width: 40%; /* Metade da largura */
-  background: #025E73;
+  background: #000;
   display: flex; /* Usa layout flexbox */
   flex-direction: column; /* Direção da coluna */
   justify-content: space-between; /* Espaço entre os itens */
@@ -35,7 +36,7 @@ body {
 /* Estilo para o segundo contêiner */
 .segundocontainer {
   width: 60%; /* Metade da largura */
-  background: #000;
+  background: #025E73;
   display: flex; /* Usa layout flexbox */
   flex-direction: column; /* Direção da coluna */
   justify-content: center; /* Centraliza itens verticalmente */
@@ -127,7 +128,7 @@ body {
   padding: 10px; /* Preenchimento interno */
   border: 2px solid #fff; /* Borda branca */
   border-radius: 50px; /* Bordas arredondadas */
-  background: #000; /* Cor de fundo */
+  background: #025E73; /* Cor de fundo */
   color: #fff; /* Cor do texto */
   font-size: 16px; /* Tamanho da fonte */
   cursor: pointer; /* Cursor de ponteiro */
@@ -137,6 +138,6 @@ body {
 
 .btn:hover {
   background: #fff;
-  color: #000;
+  color: #025E73;
 }
 
