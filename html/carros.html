@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carros</title>
+  <link rel="stylesheet" href="../css/carros.css">
+  <script src="../js/carros.js" defer></script>
+</head>
+<header id="header">
+  <div class="flex">
+    <a href="perfil.html" class="voltar">voltar</a>
+    <p class="nome">olá, Fulano</p>
+  </div>
+</header>
+
+<body>
+  <div class="inicio">
+    <h1>Carros Cadastrados</h1>
+    <button id="open-modal">ADICIONAR CARRO</button>
+  </div>
+  <div id="fade" class="hide"></div>
+  <div id="modal" class="hide">
+    <div class="modal-header">
+      <h2>Novo Carro</h2>
+      <button id="close-modal"></button>
+    </div>
+    <div class="modal-body">
+      <form action="" method="post" accept-charset="utf-8">
+        <label for="apelido">Apelido:</label>
+        <input type="text" name="apelido" id="apelidoi" /><br>
+        <label for="marca">Marca:</label>
+        <input type="text" name="marca" id="marcai" /><br>
+        <label for="modelo">Modelo:</label>
+        <input type="text" name="modelo" id="modeloi" /><br>
+        <label for="placa">Placa:</label>
+        <input type="text" name="placa" id="placai" /><br>
+        <input type="button" name="adicionar" id="adicionar" value="ADICIONAR" />
+      </form>
+    </div>
+  </div>
+  <div class="cadastrados">
+    <img src="../img/icones/carro.png" alt="carro">
+    <div class="descricao_carro">
+      <p id="marca">Citroen</p>
+      <p id="modelo">Citroen C3</p>
+    </div>
+    <p id="apelido">Carro 01</p>
+    <p id="placa">EFG1234</p>
+    <a href="#">Alterar</a>
+  </div>
+  <div class="cadastrados">
+    <img src="../img/icones/carro.png" alt="carro">
+    <div class="descricao_carro">
+      <p id="marca">TAN</p>
+      <p id="modelo">BYD</p>
+    </div>
+    <p id="apelido">Carro 02</p>
+    <p id="placa">ABC4321</p>
+    <a href="#">Alterar</a>
+  </div>
+</body>
+
+</html>
