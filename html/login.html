@@ -22,19 +22,19 @@
     <div class="segundocontainer">
       <h3 class="titulo2"> Login </h3>
 
-      <form class="form">
+      <form class="form" method="post" action="../php/login.php">
 
         <label class="label-input" for="email">
-          <input type="email" placeholder="Email">
+          <input type="email" placeholder="Email" name="email">
         </label>
 
         <label class="label-input" for="senha">
-          <input type="password" placeholder="Senha">
+          <input type="password" placeholder="Senha" name="senha">
         </label>
 
         <a href="#" class="esqueceu_senha">Esqueceu sua senha?</a>
 
-        <button class="btn btn-second">Entrar</button>
+        <input type="submit" class="btn btn-second" value="Entrar">
 
       </form>
 
