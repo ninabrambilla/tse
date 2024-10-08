@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter';
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    z-index: 9999;
+    /*código para o menu ficar acima de tudo*/
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: #025E73;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.644);
+}
+
+.voltar {
+    color: #fff;
+    padding-left: 1%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome {
+    padding-right: 1%;
+}
+
+.cor {
+    background-color: #025E73;
+    color: #025E73;
+    width: 100%;
+    min-height: 50%;
+    /* Ajuste a altura mínima conforme necessário */
+    position: relative;
+    /* Permite posicionamento absoluto dentro desta div */
+    display: flex;
+    align-items: center;
+    /* Centraliza a bola verticalmente se necessário */
+    justify-content: center;
+    /* Centraliza a bola horizontalmente se necessário */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* Permite a bola ser posicionada relativa a este elemento */
+}
+
+
+.saldo {
+    border: solid #025E73 2px;
+    top: 50%;
+    /* Ajuste conforme necessário */
+    left: 50%;
+    /* Ajuste conforme necessário */
+    transform: translate(0%, -50%);
+    width: 800px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: #fff;
+    /* Cor de fundo branca para a bola */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.saldo button {
+    padding: 3%;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    color: #060606;
+    background-color: #d9d9d9;
+    border: 0;
+}
+
+.saldo h1 {
+    font-weight: 300;
+    font-size: 250%;
+}
+
+.saldo p {
+    color: #025E73;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+}
+
+.extrato1 {
+    margin-bottom: 4rem;
+    display: flex;
+    /* Alinha os itens em linha */
+    align-items: center;
+    /* Centraliza verticalmente os itens */
+    border-radius: 10px;
+    /* Borda arredondada */
+    border: 2px solid #025E73;
+    /* Borda para contorno */
+    padding: 20px;
+    /* Espaçamento interno */
+    width: 700px;
+    /* Aumenta a largura da div */
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.397);
+    /* Sombra à esquerda e embaixo */
+    justify-content: space-between;
+    /* Espaçamento entre as "colunas" */
+}
+
+.extrato1 img {
+    width: 60px;
+    /* Tamanho da imagem do logo */
+    height: 60px;
+    /* Garante que a imagem seja quadrada */
+    margin-right: 10%;
+    /* Espaçamento entre a imagem e os textos */
+}
+
+.extrato1 .textos {
+    font-family: 'inter';
+    color: #025E73;
+    font-weight: bold;
+    flex-grow: 1;
+    /* Permite que os textos ocupem mais espaço */
+    margin-right: 10%;
+    /* Espaçamento entre os textos e o preço */
+}
+
+.extrato1 p {
+    margin: 0;
+    /* Remove a margem padrão dos parágrafos */
+    padding: 2px 0;
+    /* Espaçamento interno para os textos */
+}
+
+.extrato1 .preco {
+    margin: 0;
+    /* Remove a margem padrão do h2 */
+    color: #025E73;
+    /* Cor do texto do valor */
+    font-size: 1.2em;
+    /* Tamanho do texto */
+    white-space: nowrap;
+    /* Impede que o preço quebre linha */
+}

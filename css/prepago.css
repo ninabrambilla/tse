@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+}
+
+/*MENU FIXO*/
+.caixa {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  z-index: 9999;
+  /*código para o menu ficar acima de tudo*/
+  width: 100%;
+  padding: 1%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  background-color: #025E73;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.644);
+}
+
+header i {
+  font-size: 30px;
+  color: #fff;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li :hover {
+  text-decoration: underline;
+}
+
+/*BOTÃO DE ENTRAR*/
+.btn-contato button {
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #025E73;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  position: relative;
+  left: -100%;
+}
+
+.btn-contato button:hover {
+  background-color: #fff;
+  color: #025E73;
+  border: solid 1px #025E73;
+}
+
+.titulo {
+  background-color: #025E73;
+  padding-top: 6%; /* Ajusta a distância do topo */
+  padding-bottom: 1%;
+  margin: 0;
+}
+
+.h1primeiro {
+  font-family: 'Inter';
+  font-size: 220%;
+  font-weight: 100;
+  margin: 2%;
+  color: #fff;
+  text-align: left;
+}
+
+.paragrafo1 {
+  font-family: Inter;
+  font-size: 120%;
+  font-weight: 100;
+  margin: 2%;
+  color: #fff;
+  text-align: left;
+  margin-top: 1%;
+}
+
+.planos1 {
+    padding-top: 5%;
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #025E73;
+  }
+  
+  .planos1 .card {
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+    border: solid #025E73 2px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .planos1 .card:hover {
+    transform: scale(1.050);
+  }
+  
+  .planos1 .card .card-title {
+    padding: 15px; /* Adicionado para afastar o texto das bordas */
+  }
+  
+  .planos1 .card .card-title h2 {
+    margin-bottom: 5%;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: #025E73;
+  }
+  
+  .planos1 .card button {
+    width: 120px;
+    padding: 10px 20px;
+    background: #025E73;
+    border-radius: 20px;
+    margin-top: 25%;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .planos1 .card button:hover{
+    background: #fff;
+    border: solid #025E73 2px;
+    letter-spacing: 1.2px;
+  }
+  
+  .planos1 .card button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .planos1 .card button:hover a{
+    color: #025E73;
+  }
+
+
+  .planos2 {
+    padding-top: 5%;
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #025E73;
+  }
+  
+  .planos2 .card {
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+    border: solid #025E73 2px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .planos2 .card:hover {
+    transform: scale(1.050);
+  }
+  
+  .planos2 .card .card-title {
+    padding: 15px; /* Adicionado para afastar o texto das bordas */
+  }
+  
+  .planos2 .card .card-title h2 {
+    margin-bottom: 5%;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: #025E73;
+  }
+  
+  .planos2 .card button {
+    width: 120px;
+    padding: 10px 20px;
+    background: #025E73;
+    border-radius: 20px;
+    margin-top: 25%;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .planos2 .card button:hover{
+    background: #fff;
+    border: solid #025E73 2px;
+    letter-spacing: 1.2px;
+  }
+  
+  .planos2 .card button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .planos2 .card button:hover a{
+    color: #025E73;
+  }
+  

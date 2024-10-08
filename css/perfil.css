@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter';
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    z-index: 9999;
+    /*código para o menu ficar acima de tudo*/
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: #025E73;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.644);
+}
+
+.voltar {
+    color: #fff;
+    padding-left: 1%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome {
+    padding-right: 1%;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.m-2 {
+    margin: 12px;
+}
+
+.p-4 {
+    padding: 24px;
+}
+
+
+
+
+.cor {
+    background-color: #025E73;
+    color: #025E73;
+    width: 100%;
+    min-height: 50%;
+    /* Ajuste a altura mínima conforme necessário */
+    position: relative;
+    /* Permite posicionamento absoluto dentro desta div */
+    display: flex;
+    align-items: center;
+    /* Centraliza a bola verticalmente se necessário */
+    justify-content: center;
+    /* Centraliza a bola horizontalmente se necessário */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* Permite a bola ser posicionada relativa a este elemento */
+    margin-top: 0%;
+    /* Ajuste este valor conforme necessário para que a bola se sobreponha à cor */
+}
+
+#form-form {
+    position: relative;
+    /* Necessário para posicionamento absoluto dos elementos internos */
+}
+
+.image-upload {
+    position: absolute;
+    /* Permite a bola se posicionar acima da cor */
+    top: 50%;
+    /* Ajuste conforme necessário */
+    left: 50%;
+    /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%);
+    /* Centraliza a bola */
+    width: 300px;
+    height: 300px;
+    border: 4px solid #025E73;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    /* Cor de fundo branca para a bola */
+}
+
+.image-upload img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.image-upload i {
+    position: absolute;
+    font-size: 50px;
+    color: #025E73;
+}
+
+#image-field {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.info h2 {
+    margin-top: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes button {
+    font-size: 300%;
+    background-color: #fff;
+    border: solid 2px #025E73;
+    border-radius: 5px;
+    color: #025E73;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    /* Ajuste o valor conforme necessário */
+}
+
+/* Se você quiser adicionar um espaço no topo também, use margin-top */
+.botoes button+button {
+    margin-top: 10px;
+    /* Ajuste o valor conforme necessário */
+}

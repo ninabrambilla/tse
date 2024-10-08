@@ -292,3 +292,94 @@ header ul li :hover {
 .planos2 .card .card-content button:hover a{
   color: #025E73;
 }
+
+
+.planos3 {
+  padding-top: 5%;
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+  margin-left: 17%;
+  color: #025E73;
+}
+
+.planos3 .card {
+  width: 300px;
+  height: auto;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff;
+  border: solid #025E73 2px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.planos3 .card:hover {
+  transform: scale(1.050);
+}
+
+.planos3 .card .card-title {
+  padding: 15px; /* Adicionado para afastar o texto das bordas */
+}
+
+.planos3 .card .card-title h2 {
+  margin-bottom: 5%;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 35px;
+  padding-bottom: 15px;
+  color: #025E73;
+}
+
+.planos3 .card .card-title p.descricao {
+  margin-bottom: 25%; /* Adicionado para criar espaço entre a descrição e o preço */
+  padding: 10px; /* Adicionado para afastar o texto das bordas */
+}
+
+.planos3 .card .card-content p {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.planos3 .card .card-content .preco-pequeno {
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 5px;
+  position: relative;
+  top: -10px;
+}
+
+.planos3 .card .card-content .preco-grande {
+  font-size: 35px;
+}
+
+.planos3 .card .card-content button {
+  width: 120px;
+  padding: 10px 20px;
+  background: #025E73;
+  border-radius: 20px;
+  margin-top: 25%;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.planos3 .card .card-content button:hover{
+  background: #fff;
+  border: solid #025E73 2px;
+  letter-spacing: 1.2px;
+}
+
+.planos3 .card .card-content button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.planos3 .card .card-content button:hover a{
+  color: #025E73;
+}
