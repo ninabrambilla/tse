@@ -1,6 +1,6 @@
-# Technological Solar Energy (TSE)
+# 👩🏻‍💻Technological Solar Energy (TSE)
 
-## Descrição
+## 📚Descrição
 
 O **Technological Solar Energy (TSE)** é uma plataforma web voltada para a gestão e automação do pagamento em postos de carregamento para veículos elétricos movidos a energia solar.
 
@@ -8,7 +8,7 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 
 ---
 
-## Funcionalidades Principais
+## 🖼️Funcionalidades Principais
 
 - Cadastro e autenticação de usuários.
 - Visualização e seleção de planos de carregamento com diferentes tempos e valores.
@@ -22,7 +22,7 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠️Tecnologias Utilizadas
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
@@ -31,19 +31,19 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 
 ---
 
-## Estrutura do Projeto
+## 📁Estrutura do Projeto
 
 ---
 
-## Como Usar
+## ⚙️Como Usar
 
-### Requisitos
+### 📍Requisitos
 
 - Servidor web com suporte a PHP (ex: Apache, Nginx)
 - Banco de dados MySQL
 - Navegador para acessar a aplicação web
 
-### Passos para rodar localmente
+### 📋Passos para rodar localmente
 
 1. Clone o repositório:
    ```bash
