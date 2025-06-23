@@ -32,3 +32,19 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 ---
 
 ## Estrutura do Projeto
+
+---
+
+## Como Usar
+
+### Requisitos
+
+- Servidor web com suporte a PHP (ex: Apache, Nginx)
+- Banco de dados MySQL
+- Navegador para acessar a aplicação web
+
+### Passos para rodar localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/technological-solar-energy.git
