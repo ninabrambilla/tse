@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Technological Solar Energy (TSE)** é uma plataforma web voltada para a gestão e automação do pagamento em postos de carregamento para veículos elétricos movidos a energia solar, desenvolvida para a região sul de Minas Gerais.
+O **Technological Solar Energy (TSE)** é uma plataforma web voltada para a gestão e automação do pagamento em postos de carregamento para veículos elétricos movidos a energia solar.
 
 O sistema oferece uma experiência totalmente automatizada para o usuário, permitindo o cadastro, autenticação, seleção de planos de carregamento, geração de QR codes para pagamento e controle em tempo real do status do carregamento.
 
