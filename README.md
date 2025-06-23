@@ -35,9 +35,9 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 
 ---
 
-## ⚙️Como Usar
+## 📍Como Usar
 
-### 📍Requisitos
+### ⚙️Requisitos
 
 - Servidor web com suporte a PHP (ex: Apache, Nginx)
 - Banco de dados MySQL
