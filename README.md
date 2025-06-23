@@ -53,6 +53,6 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 - Acesse seu gerenciador de banco de dados (ex: phpMyAdmin ou MySQL Workbench)
 - Crie um novo banco com o nome desejado (ex: tse)
 - Importe o arquivo tse.sql localizado na raiz do repositório
-3.	Configure as credenciais do banco de dados no arquivo de configuração PHP (geralmente config.php ou semelhante).
+3.	Configure as credenciais do banco de dados no arquivo de configuração PHP (conexao.php).
 4.	Configure seu servidor web para apontar para a raiz do projeto, onde está localizado o arquivo index.html.
 5.	Acesse o site pelo navegador para realizar o cadastro, selecionar planos e testar a geração do QR code e confirmação de pagamento.
