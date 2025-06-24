@@ -31,10 +31,6 @@ O sistema oferece uma experiência totalmente automatizada para o usuário, perm
 
 ---
 
-## 📁Estrutura do Projeto
-
----
-
 ## 📍Como Usar
 
 ### ⚙️Requisitos
